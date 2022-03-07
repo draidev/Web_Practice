@@ -1,17 +1,31 @@
 <!DOCTYPE html> <!--관용적으로 이 문서는 html이다라고 나타낸다-->
-<html><!--head와 body를 묶는 최고위층 태그-->
+<html> <!--head와 body를 묶는 최고위층 태그-->
     <head> <!--본문(body를 설명하는 태그 head)-->
         <title>WEB1 - HTML</title> <!--본문의 제목-->
         <meta charset = utf-8> <!--본문이 utf-8형식으로 저장되어있다-->
     </head>
     <body> <!--본문을 나타내는 태그 body-->
+        <h1><a href="index.html">WEB</a></h1>
         <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html"></a>CSS</a></li>
+            <li><a href="3.html"></a>JavaScript</a></li>
         </ol>
         <h1>HTML</h1>
-        <p>Hypertext Markup Language (HTML) is the standard markup language for <strong>creating <u>web</u> 
+
+<!--링크를 걸어주는 태그 'a(anchor)'
+    #속성
+    * href(hypertext reference)에 주소를 적습니다.
+
+    * target
+<a> 태그가 연결된 URL을 표시할 위치를 정의합니다. 기본값은 _self입니다.
+ _self: 현재 브라우저에 연결된 URL을 보여줍니다.
+ _blank: 현재 브라우저의 새로운 탭에 연결된 URL을 보여줍니다.
+_parent: 현재 브라우저의 부모 창에 연결된 URL을 보여주며, 부모 창이 없는 경우 _self와 같은 동작을 합니다.
+_top: 최상단 브라우저에 표시합니다. 부모 창이 없는 경우 _self와 같은 동작을 합니다.
+   
+    * title : 마우스 커서를 올렸을때 설정한 설명이 표시됩니다.-->
+        <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> 
         pages</strong> and web applications.
         Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. 
         HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. 
