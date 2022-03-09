@@ -12,7 +12,7 @@
 
 [출처 : mdn](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
-HTML 태그 사용빈도 확인 사이트 -> [Advanced WEB RANKING](https://www.advancedwebranking.com/seo/html-study/)
+* HTML 태그 사용빈도 확인 사이트 -> [Advanced WEB RANKING](https://www.advancedwebranking.com/seo/html-study/)
 <br>
 
 ## 2. 서버와 클라이언트
@@ -21,11 +21,10 @@ HTML 태그 사용빈도 확인 사이트 -> [Advanced WEB RANKING](https://www.
 서버는 그 역할에 따라 웹(Web) 서버, 와스(WAS) 서버, 디비(DB) 서버 등이 있다.
 
 **클라이언트(client)** 란 네트워크를 이용하여 서버 시스템에 연결된 PC나 스마트폰 등 사용자 측을 말한다. 클라이언트는 서버에서 받아온 데이터를 단말기 화면에 표시하고 사용자의 요청을 서버에 전달하기 위해 웹브라우저를 사용한다.
-<br><br><br>
+<br><br>
 <center><img src="./images/serverclient.JPG" width="80%" height="80%"></center>
-<br>
 
-### **< 장단점 >**
+### **장단점**
 **장점**
 <br>
 **서버-클라이언트 구조**는 매우 효율적인 네트워크 구조이다. 다수의 사용자들이 공동으로 열람·복사·수정·관리하는 데이터를 여러 곳에 분산시키지 않고 단일한 중앙 서버에 저장하여 관리함으로써 데이터의 유일성과 통일성을 보장할 수 있다. 탈중앙 분산 저장 방식에 필요한 합의 알고리즘이 필요 없다. 중앙 서버만 관리하면 되므로 분산 저장 방식에 비해 네트워크 구성 및 유지관리 비용이 적게 든다.
