@@ -3,6 +3,16 @@
     <head> <!--본문(body를 설명하는 태그 head)-->
         <title>WEB1 - HTML</title> <!--본문의 제목-->
         <meta charset = utf-8> <!--본문이 utf-8형식으로 저장되어있다-->
+
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RGDFZK0C79"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-RGDFZK0C79');
+        </script>
     </head>
     <body> <!--본문을 나타내는 태그 body-->
         <h1><a href="index.html">WEB</a></h1>
@@ -12,7 +22,9 @@
             <li><a href="3.html">JavaScript</a></li>
         </ol>
         <h1>HTML</h1>
-
+<p><!--유튜브 영상 삽입 : 유튜브 공유 -> 퍼가기(Embed) -> iframe태그 복사 붙여넣기-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9GkFI1ovBbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 <!--링크를 걸어주는 태그 'a(anchor)'
     #속성
     * href(hypertext reference)에 주소를 적습니다.
@@ -31,5 +43,44 @@ _top: 최상단 브라우저에 표시합니다. 부모 창이 없는 경우 _se
         HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. 
         With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. 
         It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. </p>
+        
+        <!--disqus로 댓글창 만들기-->
+        <p>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://web1-8kp8pmixws.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+        <!--tawk 채팅 기능 추가-->
+        <p>
+            <!--Start of Tawk.to Script-->
+            <script type="text/javascript">
+                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/622a224d1ffac05b1d7df39f/1ftq9c07v';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+                })();
+            </script>
+            <!--End of Tawk.to Script-->
+        </p>
     </body>
 </html>
