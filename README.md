@@ -5,7 +5,7 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 ### 목차
 [1. HTML이란?](#1-html이란)      
 [2. 서버와 클라이언트](#2-서버와-클라이언트)   
-[3. HTTP](#3-httphttpsdevelopermozillaorgkodocswebhttpoverview)   
+[HTTP](#3-httphttpsdevelopermozillaorgkodocswebhttpoverview)   
 <br><br>
 
 # 생활코딩 WEB1 & INTERNET
@@ -29,6 +29,31 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 **단점**   
 서버-클라이언트 구조는 해킹 공격과 디도스 및 랜섬웨어 공격 등에 취약하다. 모든 중요 데이터가 중앙 서버에 집중되어 있기 때문에 해커가 중앙 서버에 침투하여 데이터를 위변조할 경우 모든 클라이언트들에게 잘못된 정보가 전달된다. 이를 방어하기 위해 방화벽, 웹 방화벽, 침입탐지시스템(IDS), 침입방지시스템(IPS) 등 다양한 보안 제품을 설치하고, 서버에 저장된 데이터를 복사하여 별도의 저장장치에 백업을 해야 하기 때문에 추가적인 비용이 들어간다.
 
-## 3. [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
+## 3. [CSS](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)란?   
+**종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)** 는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로, HTML과 XHTML에 주로 쓰이며, [XML](http://www.tcpschool.com/xml/xml_intro_basic)에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
+
+### CSS의 ruleset 해부          
+<center><img src="./images/CSS.png" width="80%" height="80%"></center>    
+
+**선택자(selector)**      
+ rule set의 맨 앞에 있는 HTML 요소 이름. 이것은 꾸밀 요소(들)을 선택합니다 (이 예에서는 p 요소). 다른 요소를 꾸미기 위해서는 선택자만 바꿔주세요.   
+
+**선언(Decalaration)**   
+color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 속성을 명시합니다.
+
+**속성(Property)**    
+주어진 HTML 요소를 꾸밀 수 있는 방법입니다. (이 예에서, color는 p 요소의 속성입니다.) CSS에서, rule 내에서 영향을 줄 속성을 선택합니다.
+
+**속성 값(Property value)**     
+속성의 오른쪽에, 콜론 뒤에, 주어진 속성을 위한 많은 가능한 결과중 하나를 선택하기 위해 속성 값을 갖습니다 (color 의 값에는 red 외에 많은 것이 있습니다).
+### 지켜야할 문법
+* 각각의 rule set (셀렉터로 구분) 은 반드시 ({}) 로 감싸져야 합니다.
+* 각각의 선언 안에, 각 속성을 해당 값과 구분하기 위해 콜론 (:)을 사용해야만 합니다.
+* 각각의 rule set 안에, 각 선언을 그 다음 선언으로부터 구분하기 위해 세미콜론 (;)을 사용해야만 합니다.
+
+## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 **HTTP** 는 **HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는** [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.
 <center><img src="./images/HTTP.png" width="80%" height="80%"></center>
+
+
+출처 : [MDN](https://developer.mozilla.org/ko/), [해시넷](http://wiki.hash.kr)
