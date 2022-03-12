@@ -5,7 +5,9 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 ### 목차
 [1. HTML이란?](#1-html이란)      
 [2. 서버와 클라이언트](#2-서버와-클라이언트)   
-[HTTP](#3-httphttpsdevelopermozillaorgkodocswebhttpoverview)   
+[3. CSS](#3-css란)   
+[HTTP](#3-http)   
+
 <br><br>
 
 # 생활코딩 WEB1 & INTERNET
@@ -54,6 +56,9 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
 ## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 **HTTP** 는 **HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는** [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.
 <center><img src="./images/HTTP.png" width="80%" height="80%"></center>
+<<<<<<< HEAD
 
 
 출처 : [MDN](https://developer.mozilla.org/ko/), [해시넷](http://wiki.hash.kr)
+=======
+>>>>>>> f4e509dd8f3e51ad32031b3da2afcdcd219df3c7
