@@ -5,7 +5,7 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 ### 목차
 [1. HTML이란?](#1-html이란)      
 [2. 서버와 클라이언트](#2-서버와-클라이언트)   
-[3. HTTP](#3-httphttpsdevelopermozillaorgkodocswebhttpoverview)   
+[3. HTTP](#3-http)   
 <br><br>
 
 # 생활코딩 WEB1 & INTERNET
