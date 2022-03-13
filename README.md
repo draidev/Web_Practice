@@ -32,7 +32,10 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 **서버-클라이언트 구조**는 매우 효율적인 네트워크 구조이다. 다수의 사용자들이 공동으로 열람·복사·수정·관리하는 데이터를 여러 곳에 분산시키지 않고 단일한 중앙 서버에 저장하여 관리함으로써 데이터의 유일성과 통일성을 보장할 수 있다. 탈중앙 분산 저장 방식에 필요한 합의 알고리즘이 필요 없다. 중앙 서버만 관리하면 되므로 분산 저장 방식에 비해 네트워크 구성 및 유지관리 비용이 적게 든다.
 
 **단점**   
-서버-클라이언트 구조는 해킹 공격과 디도스 및 랜섬웨어 공격 등에 취약하다. 모든 중요 데이터가 중앙 서버에 집중되어 있기 때문에 해커가 중앙 서버에 침투하여 데이터를 위변조할 경우 모든 클라이언트들에게 잘못된 정보가 전달된다. 이를 방어하기 위해 방화벽, 웹 방화벽, 침입탐지시스템(IDS), 침입방지시스템(IPS) 등 다양한 보안 제품을 설치하고, 서버에 저장된 데이터를 복사하여 별도의 저장장치에 백업을 해야 하기 때문에 추가적인 비용이 들어간다.
+서버-클라이언트 구조는 해킹 공격과 디도스 및 랜섬웨어 공격 등에 취약하다. 모든 중요 데이터가 중앙 서버에 집중되어 있기 때문에 해커가 중앙 서버에 침투하여 데이터를 위변조할 경우 모든 클라이언트들에게 잘못된 정보가 전달된다. 이를 방어하기 위해 방화벽, 웹 방화벽, 침입탐지시스템(IDS), 침입방지시스템(IPS) 등 다양한 보안 제품을 설치하고, 서버에 저장된 데이터를 복사하여 별도의 저장장치에 백업을 해야 하기 때문에 추가적인 비용이 들어간다.   
+<br><br>
+
+# 생활코딩 WEB2 - CSS   
 
 ## 03. [CSS](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)란?   
 **종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)** 는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로, HTML과 XHTML에 주로 쓰이며, [XML](http://www.tcpschool.com/xml/xml_intro_basic)에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
@@ -59,7 +62,7 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
 
 ### [**03_02 CSS box model**](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/The_box_model) 
 
-<p align="center"><image src="./images/cssbox.JPG" width="80%" height="80%"></p>
+<p align="center"><image src="./images/cssbox.JPG" width="70%" height="70%"></p>
 
 ```css
     /*
@@ -88,7 +91,7 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
 ```
 ### [**03_03 padding, border, margin, width, height**](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/The_box_model#%EC%97%AC%EB%B0%B1%EA%B3%BC_%ED%8C%A8%EB%94%A9%EA%B3%BC_%ED%85%8C%EB%91%90%EB%A6%AC)
 
-<p align="center"><image src="./images/CSSbox1.JPG" width="60%" height="60%"></p>
+<p align="center"><image src="./images/CSSbox1.JPG" width="45%" height="45%"></p>
 
 ```css
 h1{
