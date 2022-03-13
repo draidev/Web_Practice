@@ -57,7 +57,7 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
 
 ### [CSS box model](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/The_box_model) 
 
-<p align="center"><image src="./images/cssbox.jpg" width="75%"> </p>
+<p align="center"><image src="./images/cssbox.jpg" width="75%" height="75%"></p>
 
 ```css
     /*
@@ -94,7 +94,7 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
         height:20px;
     }
 ```
-<p align="center"><image src="./images/CSSbox1.jpg" width="50%"> </p>
+<p align="center"><image src="./images/CSSbox1.jpg" width="50%" height="75%"></p>
 
 ## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 **HTTP** 는 **HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는** [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.
