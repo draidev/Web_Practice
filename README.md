@@ -1,4 +1,4 @@
-# web_practice   
+# Web_Practice   
 Demo Website : https://draidev.github.io/Web_Practice/1.html
 <br>
 
@@ -6,6 +6,7 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 [1. HTML이란?](#1-html이란)      
 [2. 서버와 클라이언트](#2-서버와-클라이언트)   
 [3. CSS](#3-css란)   
+- [CSS box model](#css-box-model)    
 [HTTP](#3-http)   
 
 <br><br>
@@ -53,9 +54,51 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
 * 각각의 선언 안에, 각 속성을 해당 값과 구분하기 위해 콜론 (:)을 사용해야만 합니다.
 * 각각의 rule set 안에, 각 선언을 그 다음 선언으로부터 구분하기 위해 세미콜론 (;)을 사용해야만 합니다.
 
+
+### [CSS box model](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/The_box_model) 
+
+<p align="center"><image src="./images/cssbox.jpg" width="75%"> </p>
+
+```css
+    /*
+    block element
+    화면 전체공간을 차지합니다.
+    */
+    h1{
+        border-width: 5px;
+        border-color: red;
+        border-style: solid;
+        /* display 속성으로 inline, block 값을 조절할 수 있습니다. */
+        /* display: inline; */
+    }
+
+    /*
+    inline element
+    자신의 크기만큼 공간을 차지합니다.
+    */
+    a{
+        border-width: 5px;
+        border-color: red;
+        border-style: solid;
+        /* display: block; */
+    }
+
+```
+### [padding, border, margin, width, height](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/The_box_model#%EC%97%AC%EB%B0%B1%EA%B3%BC_%ED%8C%A8%EB%94%A9%EA%B3%BC_%ED%85%8C%EB%91%90%EB%A6%AC)
+```css
+    h1{
+        padding:20px;
+        border:10px solid red;
+        margin:20px;
+        width:100px;
+        height:20px;
+    }
+```
+<p align="center"><image src="./images/CSSbox1.jpg" width="50%"> </p>
+
 ## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 **HTTP** 는 **HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는** [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.
-<p align="center"><img src="./images/HTTP.png" width="80%" height="80%"></p>
+<p align="center"><img src="./images/HTTP.png" width="70%" height="70%"></p>
 
 
 출처 : [MDN](https://developer.mozilla.org/ko/), [해시넷](http://wiki.hash.kr)
