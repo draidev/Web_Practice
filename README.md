@@ -89,15 +89,16 @@ color: red와 같은 단일 규칙; 여러분이 꾸미기 원하는 요소의 �
 ### [**03_03 padding, border, margin, width, height**](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/The_box_model#%EC%97%AC%EB%B0%B1%EA%B3%BC_%ED%8C%A8%EB%94%A9%EA%B3%BC_%ED%85%8C%EB%91%90%EB%A6%AC)
 
 <p align="center"><image src="./images/CSSbox1.JPG" width="60%" height="60%"></p>
+
 ```css
-    h1{
-        padding:20px;
-        border:10px solid red;
-        margin:20px;
-        width:100px;
-        height:20px;
-    }
-```   
+h1{
+    padding:20px;
+    border:10px solid red;
+    margin:20px;
+    width:100px;
+    height:20px;
+}
+```
 
 
 ## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
