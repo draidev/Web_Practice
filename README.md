@@ -7,7 +7,7 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 [02. 서버와 클라이언트](#2-서버와-클라이언트)   
 [03. CSS](#3-css란)   
 - [CSS box model](#css-box-model)    
-- [padding, border, margin, width, heig](#padding-border-margin-width-height)   
+- [padding, border, margin, width, height](#padding-border-margin-width-height)   
 
 [HTTP](#3-http)   
 
@@ -21,24 +21,24 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 > HTML 태그 사용빈도 확인 사이트 -> [Advanced WEB RANKING](https://www.advancedwebranking.com/seo/html-study/)
 
 ## 02. [서버와 클라이언트](http://wiki.hash.kr/index.php/%EC%84%9C%EB%B2%84-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8) 
-**서버(server)** 란 통신망 상에서 다른 컴퓨터에 대하여 회선, 디스크 장치 등에 대한 접속을 제어하는 관리 소프트웨어 또는 컴퓨터를 말한다. 
-서버는 그 역할에 따라 웹(Web) 서버, 와스(WAS) 서버, 디비(DB) 서버 등이 있다.
+**서버(server)** 란 통신망 상에서 다른 컴퓨터에 대하여 회선, 디스크 장치 등에 대한 접속을 제어하는 관리 소프트웨어 또는 컴퓨터를 말합니다. 
+서버는 그 역할에 따라 웹(Web) 서버, 와스(WAS) 서버, 디비(DB) 서버 등이 있습니다.
 
-**클라이언트(client)** 란 네트워크를 이용하여 서버 시스템에 연결된 PC나 스마트폰 등 사용자 측을 말한다. 클라이언트는 서버에서 받아온 데이터를 단말기 화면에 표시하고 사용자의 요청을 서버에 전달하기 위해 웹브라우저를 사용한다.   
+**클라이언트(client)** 란 네트워크를 이용하여 서버 시스템에 연결된 PC나 스마트폰 등 사용자 측을 말합니다. 클라이언트는 서버에서 받아온 데이터를 단말기 화면에 표시하고 사용자의 요청을 서버에 전달하기 위해 웹브라우저를 사용합니다.   
 <p align="center"><img src="./images/serverclient.JPG" width="80%" height="80%"></p>
 
 ### **장단점**   
 **장점**   
-**서버-클라이언트 구조**는 매우 효율적인 네트워크 구조이다. 다수의 사용자들이 공동으로 열람·복사·수정·관리하는 데이터를 여러 곳에 분산시키지 않고 단일한 중앙 서버에 저장하여 관리함으로써 데이터의 유일성과 통일성을 보장할 수 있다. 탈중앙 분산 저장 방식에 필요한 합의 알고리즘이 필요 없다. 중앙 서버만 관리하면 되므로 분산 저장 방식에 비해 네트워크 구성 및 유지관리 비용이 적게 든다.
+**서버-클라이언트 구조**는 매우 효율적인 네트워크 구조입니다. 다수의 사용자들이 공동으로 열람·복사·수정·관리하는 데이터를 여러 곳에 분산시키지 않고 단일한 중앙 서버에 저장하여 관리함으로써 데이터의 유일성과 통일성을 보장할 수 있습니다. 탈중앙 분산 저장 방식에 필요한 합의 알고리즘이 필요 없습니다. 중앙 서버만 관리하면 되므로 분산 저장 방식에 비해 네트워크 구성 및 유지관리 비용이 적게 듭니다.
 
 **단점**   
-서버-클라이언트 구조는 해킹 공격과 디도스 및 랜섬웨어 공격 등에 취약하다. 모든 중요 데이터가 중앙 서버에 집중되어 있기 때문에 해커가 중앙 서버에 침투하여 데이터를 위변조할 경우 모든 클라이언트들에게 잘못된 정보가 전달된다. 이를 방어하기 위해 방화벽, 웹 방화벽, 침입탐지시스템(IDS), 침입방지시스템(IPS) 등 다양한 보안 제품을 설치하고, 서버에 저장된 데이터를 복사하여 별도의 저장장치에 백업을 해야 하기 때문에 추가적인 비용이 들어간다.   
+서버-클라이언트 구조는 해킹 공격과 디도스 및 랜섬웨어 공격 등에 취약합니다. 모든 중요 데이터가 중앙 서버에 집중되어 있기 때문에 해커가 중앙 서버에 침투하여 데이터를 위변조할 경우 모든 클라이언트들에게 잘못된 정보가 전달됩니다. 이를 방어하기 위해 방화벽, 웹 방화벽, 침입탐지시스템(IDS), 침입방지시스템(IPS) 등 다양한 보안 제품을 설치하고, 서버에 저장된 데이터를 복사하여 별도의 저장장치에 백업을 해야 하기 때문에 추가적인 비용이 들어갑니다.   
 <br><br>
 
 # 생활코딩 WEB2 - CSS   
 
 ## 03. [CSS](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics)란?   
-**종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)** 는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로, HTML과 XHTML에 주로 쓰이며, [XML](http://www.tcpschool.com/xml/xml_intro_basic)에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
+**종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)** 는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로, HTML과 XHTML에 주로 쓰이며, [XML](http://www.tcpschool.com/xml/xml_intro_basic)에서도 사용할 수 있습니다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높습니다.
 
 ### **03_01 CSS의 ruleset 해부**          
 <p align="center"><img src="./images/CSS.png" width="80%" height="80%"></p>    
@@ -109,5 +109,5 @@ h1{
 <p align="center"><img src="./images/HTTP.png" width="70%" height="70%"></p>
 
 
-출처 : [MDN](https://developer.mozilla.org/ko/), [해시넷](http://wiki.hash.kr)
+Reference : [MDN](https://developer.mozilla.org/ko/), [해시넷](http://wiki.hash.kr)
 
