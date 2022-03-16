@@ -34,13 +34,16 @@
       margin : 0;
       padding : 20px;
     }
-
-    /* 부모태그의 id가 grid인 ol에 적용 */
-    #grid ol{
+    
+    ol{
       border-right : 1px solid gray;
       width : 100px;
       margin : 0;
       padding : 20px;
+    }
+
+    /* 부모태그의 id가 grid인 ol에 적용 */
+    #grid ol{
       padding-left: 33px;
     }
 
@@ -49,8 +52,20 @@
       grid-template-columns: 150px 1fr;
     }
 
-    #article{
+    #grid #article{
       padding-left: 25px;
+    }
+
+    @media(max-width:800px){
+      #grid{
+        display : block;
+      }
+      ol{
+        border-right : none;
+      }
+      h1{
+        border-bottom : none;
+      }
     }
 
     body{
