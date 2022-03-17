@@ -1,0 +1,60 @@
+a {
+    color : black;
+    text-decoration: none;
+  }
+
+  /* .은 class 선택자 */
+.saw{
+    color :gray;
+  }
+
+  /* #은 id 선택자 */
+#active{
+    color : red;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    /* 헤드의 아래쪽에 선을 긋는다 */
+    border-bottom : 1px solid gray;
+    margin : 0;
+    padding : 20px;
+  }
+  
+ol{
+    border-right : 1px solid gray;
+    width : 100px;
+    margin : 0;
+    padding : 20px;
+  }
+
+  /* 부모태그의 id가 grid인 ol에 적용 */
+#grid ol{
+    padding-left: 33px;
+  }
+
+#grid{
+    display : grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+#grid #article{
+    padding-left: 25px;
+  }
+
+@media(max-width:800px){
+    #grid{
+      display : block;
+    }
+    ol{
+      border-right : none;
+    }
+    h1{
+      border-bottom : none;
+    }
+  }
+
+ body{
+    margin : 0;
+  }
