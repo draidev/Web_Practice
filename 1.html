@@ -3,7 +3,8 @@
     <head> <!--본문(body를 설명하는 태그 head)-->
         <title>WEB1 - HTML</title> <!--본문의 제목-->
         <meta charset = utf-8> <!--본문이 utf-8형식으로 저장되어있다-->
-
+        <!--CSS 파일을 불러온다-->
+         <link rel="stylesheet" href = "style.css">
        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RGDFZK0C79"></script>
         <script>
@@ -21,10 +22,11 @@
             <li><a href="2.html">CSS</a></li>
             <li><a href="3.html">JavaScript</a></li>
         </ol>
-        <h1>HTML</h1>
-<p><!--유튜브 영상 삽입 : 유튜브 공유 -> 퍼가기(Embed) -> iframe태그 복사 붙여넣기-->
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/9GkFI1ovBbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-</p>
+        <div>
+            <h1>HTML</h1>
+            <p><!--유튜브 영상 삽입 : 유튜브 공유 -> 퍼가기(Embed) -> iframe태그 복사 붙여넣기-->
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/9GkFI1ovBbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+            </p>
 <!--링크를 걸어주는 태그 'a(anchor)'
     #속성
     * href(hypertext reference)에 주소를 적습니다.
@@ -37,12 +39,14 @@ _parent: 현재 브라우저의 부모 창에 연결된 URL을 보여주며, 부
 _top: 최상단 브라우저에 표시합니다. 부모 창이 없는 경우 _self와 같은 동작을 합니다.
    
     * title : 마우스 커서를 올렸을때 설정한 설명이 표시됩니다.-->
-        <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> 
-        pages</strong> and web applications.
-        Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. 
-        HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. 
-        With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. 
-        It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. </p>
+            <p><a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> 
+            pages</strong> and web applications.
+            Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. 
+            HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. 
+            With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. 
+            It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. 
+            </p>
+        </div>
         
         <!--disqus로 댓글창 만들기-->
         <p>
