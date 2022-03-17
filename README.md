@@ -110,6 +110,8 @@ h1{
 
 ### [**03_05 mediaquery**](https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Media_queries)
 CSS Media Query는 예를 들어 "뷰포트가 480 픽셀보다 넓다."라고 여러분이 지정한 규칙에 브라우저 및 장치 환경이 일치하는 경우에만 씨에스에스를 적용할 수 있는 방법을 제공합니다. 미디어 쿼리는 뷰포트의 크기에 따라 서로 다른 조판을 생성할 수 있기 때문에 반응형 웹 디자인의 핵심 부분입니다. 사용자는 마우스가 아닌 터치스크린을 사용하는 것과 같이 실행 중인 사이트 환경에 대한 여러 내용들을 탐지하는 데도 사용할 수 있습니다.
+
+**미디어 쿼리 기본 구문**
 ```css
 @media media-type and (media-feature-rule) {
   /* CSS rules go here */
