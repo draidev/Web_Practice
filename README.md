@@ -124,7 +124,7 @@ CSS Media Query는 예를 들어 "뷰포트가 480 픽셀보다 넓다."라고 �
 * 괄호로 묶은 씨에스에스 규칙이 적용되기 위해 전달되어야 하는 규칙 또는 조건문 격인 미디어 표현식.
 * 조건문을 통과하고 미디어 유형이 올바른 경우 적용되는 씨에스에스 규칙 집합.
 
-### Html에 CSS적용(외부 스타일 시트 External style sheet)
+### [Html에 CSS적용(외부 스타일 시트 External style sheet)](https://www.w3schools.com/css/css_howto.asp)
 `<link rel="stylesheet" href = "style.css">`
 
 ## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
