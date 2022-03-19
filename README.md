@@ -123,6 +123,8 @@ CSS Media Query는 예를 들어 "뷰포트가 480 픽셀보다 넓다."라고 �
 * 괄호로 묶은 씨에스에스 규칙이 적용되기 위해 전달되어야 하는 규칙 또는 조건문 격인 미디어 표현식.
 * 조건문을 통과하고 미디어 유형이 올바른 경우 적용되는 씨에스에스 규칙 집합.
 
+### Html에 CSS적용(외부 스타일 시트 External style sheet)
+`<link rel="stylesheet" href = "style.css">`
 
 ## [HTTP](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
 **HTTP** 는 **HTML 문서와 같은 리소스들을 가져올 수 있도록 해주는** [프로토콜](https://developer.mozilla.org/ko/docs/Glossary/Protocol)입니다. HTTP는 웹에서 이루어지는 모든 데이터 교환의 기초이며, 클라이언트-서버 프로토콜이기도 합니다. 클라이언트-서버 프로토콜이란 (보통 웹브라우저인) 수신자 측에 의해 요청이 초기화되는 프로토콜을 의미합니다. 하나의 완전한 문서는 텍스트, 레이아웃 설명, 이미지, 비디오, 스크립트 등 불러온(fetched) 하위 문서들로 재구성됩니다.
