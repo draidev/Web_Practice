@@ -9,7 +9,8 @@ Demo Website : https://draidev.github.io/Web_Practice/1.html
 - [CSS box model](#css-box-model)    
 - [padding, border, margin, width, height](#padding-border-margin-width-height)   
 - [grid](#0304-grid) 
-- [mediaquery](#0305-mediaquery)     
+- [mediaquery](#0305-mediaquery)
+- [Html에 CSS적용](#html에-css적용외부-스타일-시트-external-style-sheet)     
 
 [HTTP](#3-http)   
 
