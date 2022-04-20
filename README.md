@@ -1,5 +1,4 @@
 # Web_Practice   
-Demo Website : https://draidev.github.io/Web_Practice/1.html
 <br>
 
 ### 목차
